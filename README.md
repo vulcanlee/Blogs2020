@@ -5,7 +5,7 @@
 |Blazor|[文章](Blazor/ASP-NET-Core-Blazor-EditForm-EditContext-Form-Validation-property.md)|在 Blazor 使用 EditForm 與 Model 來設定資料模型，卻又想要使用額外按鈕來進行表單資料驗證檢查動作|https://csharpkh.blogspot.com/2020/05/ASP-NET-Core-Blazor-EditForm-EditContext-Form-Validation-property.html|
 |Blazor|[文章](Blazor/Blazor-MatBlazor-Start.md)|使用 MatBlazor 來開發 Blazor 專案|https://csharpkh.blogspot.com/2020/05/Blazor-MatBlazor-Start.html|
 |Blazor|[文章](EFCore/Entity-Framework-Core-Contoso-University-Database.md)|Entity Framework Core - 建立練習使用的 Contoso University 資料庫|https://csharpkh.blogspot.com/2020/09/Entity-Framework-Core-Contoso-University-Database.html|
-|Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2020/09/.html|
+|Blazor|[文章](EFCore/Entity-Framework-Core-ERD-Entity-Relationship-Diagram-SSMS.md)|建立與查看Contoso 大學資料庫的 ERD Entity-Relationship Diagram|https://csharpkh.blogspot.com/2020/09/.html|
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2020/09/.html|
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2020/09/.html|
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2020/09/.html|
