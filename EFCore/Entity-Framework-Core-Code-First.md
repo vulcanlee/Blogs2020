@@ -1,6 +1,8 @@
 # Code First 建立 Entity Framework Core 應用專案
 
-在前一個文章 [Console 專案與 EF Core 讀取已經存在的資料庫](https://csharpkh.blogspot.com/2020/09/Entity-Framework-Core-Read-Query-Table-Record-DbContext.html) ，說明了如何 DbContext 類別，來讀取後端資料庫內的紀錄；在這裡將要練習另外一種 Entity Framework Core 的架構，稱作 Code First，也就是說，開發過程中，會先來使用 C# 類別定義出各種對應到後端資料庫內資料表的 Entity 類別，接著，透過這些 Entity 類別，產生出後端的資料，或者，直接進行存取。
+在前一個文章 [Console 專案與 EF Core 讀取已經存在的資料庫](https://csharpkh.blogspot.com/2020/09/Entity-Framework-Core-Read-Query-Table-Record-DbContext.html) ，說明了如何 DbContext 類別，來讀取後端資料庫內的紀錄；在這裡將要練習另外一種 Entity Framework Core 的架構，稱作 Code First ，也就是說，開發過程中，會先來使用 C# 類別定義出各種對應到後端資料庫內資料表的 Entity 類別，接著，透過這些 Entity 類別，產生出後端的資料，或者，直接進行存取。
+
+對於建立和設定模型的相關資訊，可以參考這裡 [建立和設定模型](https://docs.microsoft.com/zh-tw/ef/core/modeling?WT.mc_id=DT-MVP-5002220)
 
 請按照底下的步驟來進行操作
 
