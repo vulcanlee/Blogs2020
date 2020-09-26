@@ -10,6 +10,11 @@
 |Blazor|[文章](EFCore/CSharp-Thread-Capture-Exception-async-Method.md)|在執行緒內拋出例外異常，可否捕捉到|https://csharpkh.blogspot.com/2020/09/CSharp-Thread-Capture-Exception-async-Method.html|
 |Blazor|[文章](EFCore/Entity-Framework-Core-Model-DbContext-Reverse-Engineer.md)|Entity Framework Core  - 反向工程 建立 Entity Model建立 Entity Model|https://csharpkh.blogspot.com/2020/09/Entity-Framework-Core-Model-DbContext-Reverse-Engineer.html|
 |Blazor|[文章](EFCore/Entity-Framework-Core-Read-Query-Table-Record-DbContext.md)|Console 專案與 EF Core 讀取已經存在的資料庫|https://csharpkh.blogspot.com/2020/09/Entity-Framework-Core-Read-Query-Table-Record-DbContext.html|
+|Blazor|[文章](EFCore/Entity-Framework-Core-Code-First.md)|Code First 建立 Entity Framework Core 應用專案|https://csharpkh.blogspot.com/2020/09/Entity-Framework-Core-Code-First.html|
+|Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/09/.html|
+|Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/09/.html|
+|Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/09/.html|
+|Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/09/.html|
 |Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/09/.html|
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2020/09/.html|
 |||||
