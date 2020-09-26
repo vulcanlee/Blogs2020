@@ -8,7 +8,7 @@
 |Blazor|[文章](EFCore/Entity-Framework-Core-ERD-Entity-Relationship-Diagram-SSMS.md)|建立與查看Contoso 大學資料庫的 ERD Entity-Relationship Diagram|https://csharpkh.blogspot.com/2020/09/.html|
 |CSharp|[文章](CSharp/CSharp-Static-Local-Variable-Object-Access-Speed.md)|在 .NET C# 環境中，要存取靜態變數或者區域變數，是否都是同樣的存取速度|https://csharpkh.blogspot.com/2020/09/CSharp-Static-Local-Variable-Object-Access-Speed.html|
 |Blazor|[文章](EFCore/CSharp-Thread-Capture-Exception-async-Method.md)|在執行緒內拋出例外異常，可否捕捉到|https://csharpkh.blogspot.com/2020/09/CSharp-Thread-Capture-Exception-async-Method.html|
-|Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/09/.html|
+|Blazor|[文章](EFCore/Entity-Framework-Core-Model-DbContext-Reverse-Engineer.md)|Entity Framework Core  - 反向工程 建立 Entity Model建立 Entity Model|https://csharpkh.blogspot.com/2020/09/.html|
 |Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/09/.html|
 |Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/09/.html|
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2020/09/.html|
