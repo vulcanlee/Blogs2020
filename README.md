@@ -4,14 +4,14 @@
 |-|-|-|-|
 |Blazor|[文章](Blazor/ASP-NET-Core-Blazor-EditForm-EditContext-Form-Validation-property.md)|在 Blazor 使用 EditForm 與 Model 來設定資料模型，卻又想要使用額外按鈕來進行表單資料驗證檢查動作|https://csharpkh.blogspot.com/2020/05/ASP-NET-Core-Blazor-EditForm-EditContext-Form-Validation-property.html|
 |Blazor|[文章](Blazor/Blazor-MatBlazor-Start.md)|使用 MatBlazor 來開發 Blazor 專案|https://csharpkh.blogspot.com/2020/05/Blazor-MatBlazor-Start.html|
-|Blazor|[文章](EFCore/Entity-Framework-Core-Contoso-University-Database.md)|Entity Framework Core - 建立練習使用的 Contoso University 資料庫|https://csharpkh.blogspot.com/2020/09/Entity-Framework-Core-Contoso-University-Database.html|
-|Blazor|[文章](EFCore/Entity-Framework-Core-ERD-Entity-Relationship-Diagram-SSMS.md)|建立與查看Contoso 大學資料庫的 ERD Entity-Relationship Diagram|https://csharpkh.blogspot.com/2020/09/.html|
+|EFCore|[文章](EFCore/Entity-Framework-Core-Contoso-University-Database.md)|Entity Framework Core - 建立練習使用的 Contoso University 資料庫|https://csharpkh.blogspot.com/2020/09/Entity-Framework-Core-Contoso-University-Database.html|
+|EFCore|[文章](EFCore/Entity-Framework-Core-ERD-Entity-Relationship-Diagram-SSMS.md)|建立與查看Contoso 大學資料庫的 ERD Entity-Relationship Diagram|https://csharpkh.blogspot.com/2020/09/.html|
 |CSharp|[文章](CSharp/CSharp-Static-Local-Variable-Object-Access-Speed.md)|在 .NET C# 環境中，要存取靜態變數或者區域變數，是否都是同樣的存取速度|https://csharpkh.blogspot.com/2020/09/CSharp-Static-Local-Variable-Object-Access-Speed.html|
-|Blazor|[文章](EFCore/CSharp-Thread-Capture-Exception-async-Method.md)|在執行緒內拋出例外異常，可否捕捉到|https://csharpkh.blogspot.com/2020/09/CSharp-Thread-Capture-Exception-async-Method.html|
-|Blazor|[文章](EFCore/Entity-Framework-Core-Model-DbContext-Reverse-Engineer.md)|Entity Framework Core  - 反向工程 建立 Entity Model建立 Entity Model|https://csharpkh.blogspot.com/2020/09/Entity-Framework-Core-Model-DbContext-Reverse-Engineer.html|
-|Blazor|[文章](EFCore/Entity-Framework-Core-Read-Query-Table-Record-DbContext.md)|Console 專案與 EF Core 讀取已經存在的資料庫|https://csharpkh.blogspot.com/2020/09/Entity-Framework-Core-Read-Query-Table-Record-DbContext.html|
-|Blazor|[文章](EFCore/Entity-Framework-Core-Code-First.md)|Code First 建立 Entity Framework Core 應用專案|https://csharpkh.blogspot.com/2020/09/Entity-Framework-Core-Code-First.html|
-|Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/09/.html|
+|CSharp|[文章](EFCore/CSharp-Thread-Capture-Exception-async-Method.md)|在執行緒內拋出例外異常，可否捕捉到|https://csharpkh.blogspot.com/2020/09/CSharp-Thread-Capture-Exception-async-Method.html|
+|EFCore|[文章](EFCore/Entity-Framework-Core-Model-DbContext-Reverse-Engineer.md)|Entity Framework Core  - 反向工程 建立 Entity Model建立 Entity Model|https://csharpkh.blogspot.com/2020/09/Entity-Framework-Core-Model-DbContext-Reverse-Engineer.html|
+|EFCore|[文章](EFCore/Entity-Framework-Core-Read-Query-Table-Record-DbContext.md)|Console 專案與 EF Core 讀取已經存在的資料庫|https://csharpkh.blogspot.com/2020/09/Entity-Framework-Core-Read-Query-Table-Record-DbContext.html|
+|EFCore|[文章](EFCore/Entity-Framework-Core-Code-First.md)|Code First 建立 Entity Framework Core 應用專案|https://csharpkh.blogspot.com/2020/09/Entity-Framework-Core-Code-First.html|
+|CSharp|[文章](CSharp/Thread-Stack-Memory-Overflow-Local-Variable-Parameter.md)|Stack Overflow 造成的原因|https://csharpkh.blogspot.com/2020/09/Thread-Stack-Memory-Overflow-Local-Variable-Parameter.html|
 |Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/09/.html|
 |Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/09/.html|
 |Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/09/.html|
