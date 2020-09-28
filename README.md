@@ -12,6 +12,7 @@
 |EFCore|[文章](EFCore/Entity-Framework-Core-Read-Query-Table-Record-DbContext.md)|Console 專案與 EF Core 讀取已經存在的資料庫|https://csharpkh.blogspot.com/2020/09/Entity-Framework-Core-Read-Query-Table-Record-DbContext.html|
 |EFCore|[文章](EFCore/Entity-Framework-Core-Code-First.md)|Code First 建立 Entity Framework Core 應用專案|https://csharpkh.blogspot.com/2020/09/Entity-Framework-Core-Code-First.html|
 |CSharp|[文章](CSharp/Thread-Stack-Memory-Overflow-Local-Variable-Parameter.md)|Stack Overflow 造成的原因|https://csharpkh.blogspot.com/2020/09/Thread-Stack-Memory-Overflow-Local-Variable-Parameter.html|
+|CSharp|[文章](CSharp/Heap-Memory-Overflow-Local-new-reference.md)|Memory Overflow 造成的原因|https://csharpkh.blogspot.com/2020/09/Heap-Memory-Overflow-Local-new-reference.html|
 |Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/09/.html|
 |Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/09/.html|
 |Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/09/.html|
