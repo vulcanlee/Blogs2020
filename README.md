@@ -13,11 +13,11 @@
 |EFCore|[文章](EFCore/Entity-Framework-Core-Code-First.md)|Code First 建立 Entity Framework Core 應用專案|https://csharpkh.blogspot.com/2020/09/Entity-Framework-Core-Code-First.html|
 |CSharp|[文章](CSharp/Thread-Stack-Memory-Overflow-Local-Variable-Parameter.md)|Stack Overflow 造成的原因|https://csharpkh.blogspot.com/2020/09/Thread-Stack-Memory-Overflow-Local-Variable-Parameter.html|
 |CSharp|[文章](CSharp/Heap-Memory-Overflow-Local-new-reference.md)|Memory Overflow 造成的原因|https://csharpkh.blogspot.com/2020/09/Heap-Memory-Overflow-Local-new-reference.html|
-|Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/09/.html|
-|Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/09/.html|
-|Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/09/.html|
-|Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/09/.html|
-|Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2020/09/.html|
+|Blazor|[文章](EFCore/Entity-Framework-Core-dbcontext-multi-thread-safty-InvalidOperationException-OnConfiguring.md)|DbContext 在多執行緒環境下的運作情況|https://csharpkh.blogspot.com/2020/10/Entity-Framework-Core-dbcontext-multi-thread-safty-InvalidOperationException-OnConfiguring.html|
+|Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
+|Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
+|Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
+|Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2020/10/.html|
 |||||
 |||||
 |WPF|[文章](WPF/WPF-Prism-RequestNavigate-RegionManager-MVVM-ViewModel-NavigationContext-INavigationAware.md)|WPF Prism 4 - 使用 Prism 開發框架來製作一個具有 WPF 導航檢視功能教學說明程式|https://csharpkh.blogspot.com/2020/05/WPF-Prism-RequestNavigate-RegionManager-MVVM-ViewModel-NavigationContext-INavigationAware.html|
