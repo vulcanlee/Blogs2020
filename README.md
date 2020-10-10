@@ -15,9 +15,13 @@
 |CSharp|[文章](CSharp/Heap-Memory-Overflow-Local-new-reference.md)|Memory Overflow 造成的原因|https://csharpkh.blogspot.com/2020/09/Heap-Memory-Overflow-Local-new-reference.html|
 |Blazor|[文章](EFCore/Entity-Framework-Core-dbcontext-multi-thread-safty-InvalidOperationException-OnConfiguring.md)|DbContext 在多執行緒環境下的運作情況|https://csharpkh.blogspot.com/2020/10/Entity-Framework-Core-dbcontext-multi-thread-safty-InvalidOperationException-OnConfiguring.html|
 |Blazor|[文章](EFCore/Entity-Framework-Core-DbContextOptionsBuilder-DbContext-connection-String-UseSqlServer.md)|使用 DbContextOptionsBuilder 來指定連線字串與觀察 EF Core 產生的 SQL 指令|https://csharpkh.blogspot.com/2020/10/Entity-Framework-Core-DbContextOptionsBuilder-DbContext-connection-String-UseSqlServer.html|
+
 |Blazor|[文章](EFCore/Entity-Framework-Core-LoggerFactory-DbContextOptionsBuilder-DbContext-UseSqlServer.md)|使用 LoggerFactory 觀察 EF Core 送出的 SQL Statement|https://csharpkh.blogspot.com/2020/10/Entity-Framework-Core-LoggerFactory-DbContextOptionsBuilder-DbContext-UseSqlServer.html|
+
+|Blazor|[文章](EFCore/Entity-Framework-Core-Blazor-ILoggerFactory-appsettings-Logging-LogLevel.md)|在 ASP.NET Core Blazor 專案內，觀察送出的 SQL 敘述|https://csharpkh.blogspot.com/2020/10/Entity-Framework-Core-Blazor-ILoggerFactory-appsettings-Logging-LogLevel.html|
+
 |Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
-|Blazor|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
+
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2020/10/.html|
 |||||
 |||||
