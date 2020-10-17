@@ -79,7 +79,7 @@ public static void Reset(DataContext context)
 
 現在使用了 `var departments = context.Department.ToList()` 敘述，將科系資料表內的所有紀錄都取回到 .NET 環境內，並且這些紀錄都會在 Entity Framework Core 的變更追蹤系統內有份紀錄，而這裡也會呼叫一個客製方法 `Reset(context)`，這個方法將會清除 ChangeTracker 內的有關科系紀錄，這樣在 Entity Framework Core 內的變更追蹤系統內，就都沒有任何有關科系資料表相關的最新紀錄了。
 
-使用這個敘述 `context.Department.Remove(departments[0]);` 將第一筆科系紀錄刪除掉，而使用這個敘述 `context.Entry(departments[1]).State = EntityState.Deleted;` 將第二個科系紀錄也刪除掉，這兩種作法都是得到相同的結果。
+使用這個敘述 `context.Department.Remove(departments[0])` 將第一筆科系紀錄刪除掉，而使用這個敘述 `context.Entry(departments[1]).State = EntityState.Deleted` 將第二個科系紀錄也刪除掉，這兩種作法都是得到相同的結果。
 
 
 最後呼叫 `context.SaveChanges()` 來通知 EF Core 產生 Delete 的 SQL 敘述，讓資料庫刪除這兩筆紀錄，而最後的 `Console.WriteLine($"科系記錄數量:{context.Department.ToList().Count}")` 敘述，將會得到沒有任何紀錄的輸出結果。
