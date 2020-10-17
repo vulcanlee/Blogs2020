@@ -19,9 +19,15 @@
 |EFCore|[文章](EFCore/Entity-Framework-Core-Blazor-ILoggerFactory-appsettings-Logging-LogLevel.md)|在 ASP.NET Core Blazor 專案內，觀察送出的 SQL 敘述|https://csharpkh.blogspot.com/2020/10/Entity-Framework-Core-Blazor-ILoggerFactory-appsettings-Logging-LogLevel.html|
 |EFCore|[文章](EFCore/Entity-Framework-Core-Blazor-ConfigureLogging-AddConsole-AddDebug-AddEventSourceLogger-AddEventLog.md)|在 ASP.NET Core 專案內，建立其他日誌輸出設備|https://csharpkh.blogspot.com/2020/10/Entity-Framework-Core-Blazor-ConfigureLogging-AddConsole-AddDebug-AddEventSourceLogger-AddEventLog.html|
 |EFCore|[文章](EFCore/Entity-Framework-Core-Load-Include-Multiple-Many-One-Relation-Read.md)|Entity Framework Core 一對多的資料讀取|https://csharpkh.blogspot.com/2020/10/Entity-Framework-Core-Load-Include-Multiple-Many-One-Relation-Read.html|
+|EFCore|[文章](EFCore/Entity-Framework-Core-Add-Insert-Save-Changed-EntityState-State.md)|EF Core 的 紀錄新增|https://csharpkh.blogspot.com/2020/10/Entity-Framework-Core-Add-Insert-Save-Changed-EntityState-State.html|
 
-|Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2020/10/.html|
-|Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2020/10/.html|
+|EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
+|EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
+|EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
+|EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
+|EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
+|EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
+|EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2020/10/.html|
 |||||
 |||||
