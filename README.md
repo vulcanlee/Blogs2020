@@ -24,8 +24,8 @@
 |EFCore|[文章](EFCore/Entity-Framework-Core-delete-Save-Changes-EntityState-State.md)|EF Core 的 紀錄刪除|https://csharpkh.blogspot.com/2020/10/Entity-Framework-Core-delete-Save-Changes-EntityState-State.html|
 |EFCore|[文章](EFCore/Entity-Framework-Core-ChangeTracker-State-Entries.md)|體驗 ChangeTracker 運作模式|https://csharpkh.blogspot.com/2020/10/Entity-Framework-Core-ChangeTracker-State-Entries.html|
 |Xamarin|[文章](XamarinForms/Xamarin-Forms-Material-Design-Icons-FontFamily-ExportFont.md)|使用字體圖片 Material Design Icons 的練習|https://csharpkh.blogspot.com/2020/10/Xamarin-Forms-Material-Design-Icons-FontFamily-ExportFont.html|
+|Blazor|[文章](Blazor/Blazor-ISyncfusionStringLocalizer-SfGrid-DataSource-ResourceManager-Culture.md)|使用 Syncfusion DataGrid 做出一個具有中文語系的簡單 CRUD 應用|https://csharpkh.blogspot.com/2020/10/Blazor-ISyncfusionStringLocalizer-SfGrid-DataSource-ResourceManager-Culture.html|
 
-|EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
 |EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
 |EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2020/10/.html|
