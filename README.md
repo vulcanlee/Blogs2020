@@ -23,8 +23,8 @@
 |EFCore|[文章](EFCore/Entity-Framework-Core-Update-Modified-Save-Changes-EntityState-State.md)|EF Core 的 紀錄修改|https://csharpkh.blogspot.com/2020/10/Entity-Framework-Core-Update-Modified-Save-Changes-EntityState-State.html|
 |EFCore|[文章](EFCore/Entity-Framework-Core-delete-Save-Changes-EntityState-State.md)|EF Core 的 紀錄刪除|https://csharpkh.blogspot.com/2020/10/Entity-Framework-Core-delete-Save-Changes-EntityState-State.html|
 |EFCore|[文章](EFCore/Entity-Framework-Core-ChangeTracker-State-Entries.md)|體驗 ChangeTracker 運作模式|https://csharpkh.blogspot.com/2020/10/Entity-Framework-Core-ChangeTracker-State-Entries.html|
+|Xamarin|[文章](XamarinForms/Xamarin-Forms-Material-Design-Icons-FontFamily-ExportFont.md)|使用字體圖片 Material Design Icons 的練習|https://csharpkh.blogspot.com/2020/10/Xamarin-Forms-Material-Design-Icons-FontFamily-ExportFont.html|
 
-|EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
 |EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
 |EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
 |EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
