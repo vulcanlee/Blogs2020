@@ -2,17 +2,17 @@
 
 ## 摘要
 
-這是一個系列文章，說明作者與好友 Steve 如何從無到有打造出一個使用 Blazor 開發框架技術的3人團隊，沒有前端與後端之分，沒有使用 JavaScript，便可以順利在三個月內設計出 Web 應用程式與 Windows Forms 的平版應用程式，當然，最重要的是將產品交付給客戶，完成此一任務的經驗分享；故事的結局當然是十分完美，要不然也不會有這一系列文章與讀者也不需要繼續來觀看這些文章了。
+這是一個系列文章，說明作者與好友 Steve 如何從無到有打造出一個使用 [Blazor](https://docs.microsoft.com/zh-tw/aspnet/core/blazor/?view=aspnetcore-3.1&WT.mc_id=DT-MVP-5002220) 開發框架技術的3人團隊，沒有前端與後端之分，沒有使用 JavaScript，便可以順利在三個月內設計出 Web 應用程式與 Windows Forms 的平版應用程式，當然，最重要的是將產品交付給客戶，完成此一任務的經驗分享；故事的結局當然是十分完美，要不然也不會有這一系列文章與讀者也不需要繼續來觀看這些文章了。
 
 在這個專案內，共使用到底下的技術與內容 
 
 * Visual Studio 2019
 * Github
-* ASP.NET Core
-* Blazor Server-Side
-* Entity Framework Core
+* [ASP.NET Core](https://docs.microsoft.com/zh-tw/aspnet/core/?view=aspnetcore-3.1&WT.mc_id=DT-MVP-5002220)
+* [Blazor Server-Side](https://docs.microsoft.com/en-us/aspnet/core/blazor/hosting-models?view=aspnetcore-3.1#blazor-server&WT.mc_id=DT-MVP-5002220)
+* [Entity Framework Core](https://docs.microsoft.com/zh-tw/ef/core/?WT.mc_id=DT-MVP-5002220)
 * Dapper
-* Syncfusion for Blazor
+* [Syncfusion for Blazor](https://www.syncfusion.com/blazor-components)
 * AutoMapper
 * EFCore.BulkExtensions
 * ncrontab
