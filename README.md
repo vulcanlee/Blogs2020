@@ -27,10 +27,11 @@
 |Blazor|[文章](Blazor/Blazor-ISyncfusionStringLocalizer-SfGrid-DataSource-ResourceManager-Culture.md)|使用 Syncfusion DataGrid 做出一個具有中文語系的簡單 CRUD 應用|https://csharpkh.blogspot.com/2020/10/Blazor-ISyncfusionStringLocalizer-SfGrid-DataSource-ResourceManager-Culture.html|
 |Blazor|[文章](Blazor/Blazor-SfGrid-Adapter-SfDataManager-CascadingValue-DataManagerRequest.md)|使用 Syncfusion 轉接器做出一個 CRUD 應用|https://csharpkh.blogspot.com/2020/10/bzsfCustomBindingCRUD.html|
 |Blazor|[文章](Blazor/Blazor-JwtBearer-Cookie-AddAuthentication-UseAuthentication-UseAuthorization-Bearer-Token-Authorize-AuthorizeRouteView-CascadingAuthenticationState-Identity-SignInAsync-.md)|Blazor Server Side 專案內做到認證與授權的完整攻略教學|https://csharpkh.blogspot.com/2020/10/Blazor-JwtBearer-Cookie-AddAuthentication-UseAuthentication-UseAuthorization-Bearer-Token-Authorize-AuthorizeRouteView-CascadingAuthenticationState-Identity-SignInAsync.html|
+|Blazor|[文章](Blazor/Blazor-Server-Side-Full-Stack-Case-Study-JavaScript-Story.md)|Blazor實戰故事經驗分享 - 風起雲湧 如何從無到有建立Blazor團隊與採用全端開發方式設計出給上市企業使用的Web系統|https://csharpkh.blogspot.com/2020/11/Blazor-Server-Side-Full-Stack-Case-Study-JavaScript-Story.html|
 
-|EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
-|EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/10/.html|
-|Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2020/10/.html|
+|EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/11/.html|
+|EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/11/.html|
+|Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2020/11/.html|
 |||||
 |||||
 |WPF|[文章](WPF/WPF-Prism-RequestNavigate-RegionManager-MVVM-ViewModel-NavigationContext-INavigationAware.md)|WPF Prism 4 - 使用 Prism 開發框架來製作一個具有 WPF 導航檢視功能教學說明程式|https://csharpkh.blogspot.com/2020/05/WPF-Prism-RequestNavigate-RegionManager-MVVM-ViewModel-NavigationContext-INavigationAware.html|
