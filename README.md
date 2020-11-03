@@ -28,7 +28,7 @@
 |Blazor|[文章](Blazor/Blazor-SfGrid-Adapter-SfDataManager-CascadingValue-DataManagerRequest.md)|使用 Syncfusion 轉接器做出一個 CRUD 應用|https://csharpkh.blogspot.com/2020/10/bzsfCustomBindingCRUD.html|
 |Blazor|[文章](Blazor/Blazor-JwtBearer-Cookie-AddAuthentication-UseAuthentication-UseAuthorization-Bearer-Token-Authorize-AuthorizeRouteView-CascadingAuthenticationState-Identity-SignInAsync-.md)|Blazor Server Side 專案內做到認證與授權的完整攻略教學|https://csharpkh.blogspot.com/2020/10/Blazor-JwtBearer-Cookie-AddAuthentication-UseAuthentication-UseAuthorization-Bearer-Token-Authorize-AuthorizeRouteView-CascadingAuthenticationState-Identity-SignInAsync.html|
 |Blazor|[文章](Blazor/Blazor-Server-Side-Full-Stack-Case-Study-JavaScript-Story.md)|Blazor實戰故事經驗分享 1 - 風起雲湧 如何從無到有建立Blazor團隊與採用全端開發方式設計出給上市企業使用的Web系統|https://csharpkh.blogspot.com/2020/11/Blazor-Server-Side-Full-Stack-Case-Study-JavaScript-Story.html|
-|Blazor|[文章](Blazor/Blazor-Server-Side-Layer-Data-Case-Study-Story.md)|Blazor實戰故事經驗分享 2 - 按部就班 如何做到 Blazor 可以快速開發出來的內部細節探究|https://csharpkh.blogspot.com/2020/11/Blazor-Server-Side-Layer-Data-Case-Study-Story.html|
+|Blazor|[文章](Blazor/Blazor-Server-Side-Layer-Data-Case-Study-Story.md)|Blazor實戰故事經驗分享 2 - 風雲再現 探究 Blazor 可以快速開發出來內部細節|https://csharpkh.blogspot.com/2020/11/Blazor-Server-Side-Layer-Data-Case-Study-Story.html|
 
 |EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/11/.html|
 |EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/11/.html|
