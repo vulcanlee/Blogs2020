@@ -104,6 +104,13 @@
 
 而且，未來將會要做到超全端 Hyper Full Stack 的開發模式，讓一個工程師可以獨力完成 Web App的前後台系統、跨平台手機 App，這也是要納入思考的。
 
+繼續觀賞第二部分
+
+## 相關文章
+
+[Blazor實戰故事經驗分享 1 - 風起雲湧 如何從無到有建立Blazor團隊與採用全端開發方式設計出給上市企業使用的Web系統](https://csharpkh.blogspot.com/2020/11/Blazor-Server-Side-Full-Stack-Case-Study-JavaScript-Story.html)
+
+[Blazor實戰故事經驗分享 2 - 風雲再現 探究 Blazor 可以快速開發出來內部細節](https://csharpkh.blogspot.com/2020/11/Blazor-Server-Side-Layer-Data-Case-Study-Story.html)
 
 
 
