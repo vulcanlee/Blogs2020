@@ -6,7 +6,7 @@
 
 舉例來說，若這些重複性的工作每個需要約 500ms 才能夠執行完成，現在有 100 這樣的工作要來處理，你確信神明不會騙你，因為你也閱讀過這篇文章，你也相信你的眼睛不會看錯，眼見為憑，此時信信滿滿的和你老闆說，現在我可以把 100 個重複性工作，透過最新學成絕技，在 500ms 內把他們都執行完畢。
 
-二話不說，寫段程式碼來測試看看，讓你老闆看到你的高超技能，先來平行執行 4 個工作，在這裡，每個工作會使用 Thread.Sleep 方法來模擬正在進行處理相關工作，這裡的休息時間將會使用變數 processCost 來代表，其單位是 ms；另外，使用變數 N 來代表要同時執行幾個相同計算作業。在這裡使用到了 [Parallel.For 方法](https://docs.microsoft.com/zh-tw/dotnet/api/system.threading.tasks.parallel.for?view=netcore-3.1&WT.mc_id=DT-MVP-5002220) 來做到這樣平行執行能力；最後，要來量測整個大量同時執行的工作花費了多少時間，這裡使用了 [Stopwatch 類別](https://docs.microsoft.com/zh-tw/dotnet/api/system.diagnostics.stopwatch?view=netcore-3.1) 來做到這樣的需求，這個模擬程式於執行完成之後，會輸出總共花費了多少時間。
+二話不說，寫段程式碼來測試看看，讓你老闆看到你的高超技能，先來平行執行 4 個工作，在這裡，每個工作會使用 Thread.Sleep 方法來模擬正在進行處理相關工作，這裡的休息時間將會使用變數 processCost 來代表，其單位是 ms；另外，使用變數 N 來代表要同時執行幾個相同計算作業。在這裡使用到了 [Parallel.For 方法](https://docs.microsoft.com/zh-tw/dotnet/api/system.threading.tasks.parallel.for?view=netcore-3.1&WT.mc_id=DT-MVP-5002220) 來做到這樣平行執行能力；最後，要來量測整個大量同時執行的工作花費了多少時間，這裡使用了 [Stopwatch 類別](https://docs.microsoft.com/zh-tw/dotnet/api/system.diagnostics.stopwatch?view=netcore-3.1&WT.mc_id=DT-MVP-5002220) 來做到這樣的需求，這個模擬程式於執行完成之後，會輸出總共花費了多少時間。
 
 底下是完成的程式碼
 
