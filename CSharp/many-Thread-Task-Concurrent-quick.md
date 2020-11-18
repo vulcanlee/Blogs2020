@@ -127,5 +127,57 @@ starting 10000 tasks...
 
 請繼續參考更精采的 [C# 平行 / 並行計算 Parallel.For 隱藏在細節背後的惡魔，你所不瞭解的平行與併行計算](https://csharpkh.blogspot.com/2020/11/Parallel-For-Foreach-Thread-ThreadPool-Concurrent-Tricky.html)
 
+## 彩蛋
+
+上面兩種做法為單純僅使用執行序，或者工作來滿足這個題目的需求，不過，不論是哪種作法，都可以看到要耗損將近 10000 個執行序來完成這個需求任務。
+
+在此，稍微修改一下原先 Task 的程式碼如下
+
+```csharp
+int MAX = 10000;
+int SLEEP = 5 * 1000;
+List<Task> tasks = new List<Task>();
+Console.WriteLine($"starting {MAX} tasks...");
+Stopwatch stopwatch = new Stopwatch();
+stopwatch.Start();
+for (int i = 0; i < MAX; i++)
+{
+    int idx = i;
+    Task task = Task.Run(async () =>
+    {
+        await Task.Delay(SLEEP);
+    });
+    tasks.Add(task);
+}
+Task.WaitAll(tasks.ToArray());
+stopwatch.Stop();
+Console.WriteLine();
+Console.WriteLine($"{stopwatch.ElapsedMilliseconds} ms");
+```
+
+這裡將會是分別執行 3 次的輸出結果
+
+```
+starting 10000 tasks...
+
+5024 ms
+
+starting 10000 tasks...
+
+5035 ms
+
+starting 10000 tasks...
+
+5036 ms
+```
+
+甚麼？上面的程式碼幾乎與前面採用 [TaskFactory.StartNew 方法](https://docs.microsoft.com/zh-tw/dotnet/api/system.threading.tasks.taskfactory.startnew?view=net-5.0&WT.mc_id=DT-MVP-5002220) 的做法大致相同，但是，為什麼這樣的寫法卻更接近 5 秒的時間，幾乎是 5.0xx 秒左右。
+
+到這裡，讀者您應該更能夠了解到直接使用執行緒或工作來強制產生大量執行緒所帶來的後遺症與副作用，之前有聽到某位自稱大神說過，想要讓程式跑的更快，就要使用更多的執行緒，殊不知嗎啡可用於幫人麻醉的緩解疼痛藥品，但是長期經常服用，而不知道嗎啡具有成癮性，將會形成吸食毒品問題與造成身體器官發生問題；用多了執行緒，到時候會很麻煩地。
+
+若對於這裡所看到的各種疑問，歡迎大家在這裡進行討論，看看大家是否可以推敲出問題在哪裡，畢竟
+
+名偵探柯南最常說的一句話 : 真相只有一個
+
 
 
