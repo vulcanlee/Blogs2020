@@ -173,11 +173,100 @@ starting 10000 tasks...
 
 甚麼？上面的程式碼幾乎與前面採用 [TaskFactory.StartNew 方法](https://docs.microsoft.com/zh-tw/dotnet/api/system.threading.tasks.taskfactory.startnew?view=net-5.0&WT.mc_id=DT-MVP-5002220) 的做法大致相同，但是，為什麼這樣的寫法卻更接近 5 秒的時間，幾乎是 5.0xx 秒左右。
 
-到這裡，讀者您應該更能夠了解到直接使用執行緒或工作來強制產生大量執行緒所帶來的後遺症與副作用，之前有聽到某位自稱大神說過，想要讓程式跑的更快，就要使用更多的執行緒，殊不知嗎啡可用於幫人麻醉的緩解疼痛藥品，但是長期經常服用，而不知道嗎啡具有成癮性，將會形成吸食毒品問題與造成身體器官發生問題；用多了執行緒，到時候會很麻煩地。
+到這裡，讀者您應該更能夠了解到直接使用執行緒或工作來強制產生大量執行緒所帶來的後遺症與副作用，之前有聽到某位自稱大神說過，想要讓程式跑的更快，就要使用更多的執行緒，殊不知嗎啡可用於幫人麻醉的緩解疼痛藥品，但是長期經常服用，而不知道嗎啡具有成癮性，將會形成吸食毒品問題與造成身體器官發生問題；用多了執行緒，到時候會很麻煩地。隨意聽信偏方、江湖術士的話，受騙的將會是你自己，因此，唯有對於整個基本知識與運作方式的徹底明瞭，才會有助於這接高階技術的學習與未來進行除錯與思考的依據。
+
+## 炸(詐)彈
+
+好的，大部分的看完這篇文章之後，再度回到原先的問題
+
+那就是提問的人提出一個問題：`用最快的速度完成他，不考慮CPU記憶體` 同時執行 10000 次，這裡指名 使用 [Parallel 類別](https://docs.microsoft.com/zh-tw/dotnet/api/system.threading.tasks.parallel?view=netcore-3.1&WT.mc_id=DT-MVP-5002220) 提供的[Parallel.For 方法](https://docs.microsoft.com/zh-tw/dotnet/api/system.threading.tasks.parallel.for?view=netcore-3.1&WT.mc_id=DT-MVP-5002220) 來完成
+
+
+```csharp
+Parallel.For(0, 10000, (i) =>
+{
+Thread.Sleep(5 * 1000);
+});
+```
+
+
+也就想說，沒問題，我也會解決此一問題，那就是把原先的 `Thread.Sleep(5 * 1000);` 敘述，改成 `await Task.Delay(5 * 1000);` 那不就好了。而且許多大神也都是這麼順利成章的說，想要使用非同步處理，就直接使用 [Parallel.For 方法](https://docs.microsoft.com/zh-tw/dotnet/api/system.threading.tasks.parallel.for?view=netcore-3.1&WT.mc_id=DT-MVP-5002220) 就可以做到了(也許你已經成為歐陽鋒，而所學成的九陰真經是黃蓉瞎掰給你的，最後結果是如何，要你自己去看那本書)，現在也是驗證這些人說明的時候。
+
+```csharp
+Stopwatch stopwatch = new Stopwatch();
+stopwatch.Start();
+Parallel.For(0, 10000, async (i) =>
+{
+    //Thread.Sleep(5 * 1000);
+    await Task.Delay(5 * 1000);
+});
+stopwatch.Stop();
+Console.WriteLine();
+Console.WriteLine($"{stopwatch.ElapsedMilliseconds} ms");
+```
+
+OK OK 很 OK ，那就開始執行吧，將會得到底下的結果
+
+```
+
+23 ms
+
+xxxx.exe (處理序 37520) 已結束，出現代碼 0。
+按任意鍵關閉此視窗…
+```
+
+一看到執行結果，不要以為你練成神功了，若以剛剛的例子，還沒五秒鐘，只花費了 23 ms ，整個程式就結束執行了，這樣似乎與之前使用 Thread.Sleep 方法有些不同，因為，在這個例子中，程式一結束，那 10000 個等候 5 秒的工作單元 Unit of Work 在還沒執行完成前，也就直接提前終止執行了。
+
+這樣的結果不是所預期的，因此，再度修改程式碼，使用執行緒同步 [CountdownEvent 類別](https://docs.microsoft.com/zh-tw/dotnet/api/system.threading.countdownevent?view=net-5.0&WT.mc_id=DT-MVP-5002220) 來同時等待這 10000 個工作單元的完成時刻來臨。
+
+```csharp
+CountdownEvent cde = new CountdownEvent(10000);
+Stopwatch stopwatch = new Stopwatch();
+stopwatch.Start();
+Parallel.For(0, 10000, async (i) =>
+{
+    //Thread.Sleep(5 * 1000);
+    await Task.Delay(5 * 1000);
+    cde.Signal();
+});
+ 
+cde.Wait();
+stopwatch.Stop();
+Console.WriteLine();
+Console.WriteLine($"{stopwatch.ElapsedMilliseconds} ms");
+```
+
+稍做小小修正，完成上述程式碼，二話不囉嗦，再來執行3次，得到底下結果
+
+```
+
+5039 ms
+
+xxxx.exe (處理序 37520) 已結束，出現代碼 0。
+
+5043 ms
+
+xxxx.exe (處理序 37520) 已結束，出現代碼 0。
+
+5034 ms
+
+xxxx.exe (處理序 37520) 已結束，出現代碼 0。
+
+```
+
+首先，整個處理程序 Process 沒有提早 5 秒鐘前就結束，接著，竟然使用 [Parallel.For 方法](https://docs.microsoft.com/zh-tw/dotnet/api/system.threading.tasks.parallel.for?view=netcore-3.1&WT.mc_id=DT-MVP-5002220) 也可以做到僅需要 5 秒鐘就可以完成 10000 個工作單元的預期目標，現在，觀看這篇文章的讀者能夠知道發生了甚麼問題嗎？
 
 若對於這裡所看到的各種疑問，歡迎大家在這裡進行討論，看看大家是否可以推敲出問題在哪裡，畢竟
 
 名偵探柯南最常說的一句話 : 真相只有一個
 
+
+## 請繼續參考更精采的
+
+[C# 平行 / 並行計算 Parallel.For 隱藏在細節背後的惡魔，你所不瞭解的平行與併行計算](https://csharpkh.blogspot.com/2020/11/Parallel-For-Foreach-Thread-ThreadPool-Concurrent-Tricky.html)
+
+[Blazor實戰故事經驗分享 1 - 風起雲湧 如何從無到有建立Blazor團隊與採用全端開發方式設計出給上市企業使用的Web系統](https://csharpkh.blogspot.com/2020/11/Blazor-Server-Side-Full-Stack-Case-Study-JavaScript-Story.html)
+
+[Blazor實戰故事經驗分享 2 - 風雲再現 探究 Blazor 可以快速開發出來內部細節](https://csharpkh.blogspot.com/2020/11/Blazor-Server-Side-Layer-Data-Case-Study-Story.html)
 
 
