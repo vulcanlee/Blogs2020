@@ -31,13 +31,13 @@
 |Blazor|[文章](Blazor/Blazor-Server-Side-Layer-Data-Case-Study-Story.md)|Blazor實戰故事經驗分享 2 - 風雲再現 探究 Blazor 可以快速開發出來內部細節|https://csharpkh.blogspot.com/2020/11/Blazor-Server-Side-Layer-Data-Case-Study-Story.html|
 |CSharp|[文章](CSharp/Parallel-For-Foreach-Thread-ThreadPool-Concurrent-Tricky.md)|C# 平行 / 並行計算 Parallel.For 隱藏在細節背後的惡魔，你所不瞭解的平行與併行計算|https://csharpkh.blogspot.com/2020/11/Parallel-For-Foreach-Thread-ThreadPool-Concurrent-Tricky.html|
 |CSharp|[文章](CSharp/many-Thread-Task-Concurrent-quick.md)|C# 用最快的速度完成他，不考慮CPU記憶體，完成工作單元，你所不瞭解的多執行緒計算|https://csharpkh.blogspot.com/2020/11/many-Thread-Task-Concurrent-quick.md.html|
-
-|EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/11/.html|
-|EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2020/11/.html|
-|Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2020/11/.html|
-|||||
-|||||
 |WPF|[文章](WPF/WPF-Prism-RequestNavigate-RegionManager-MVVM-ViewModel-NavigationContext-INavigationAware.md)|WPF Prism 4 - 使用 Prism 開發框架來製作一個具有 WPF 導航檢視功能教學說明程式|https://csharpkh.blogspot.com/2020/05/WPF-Prism-RequestNavigate-RegionManager-MVVM-ViewModel-NavigationContext-INavigationAware.html|
+
+|Blazor|[文章](Blazor/Blazor-Syncfusion-SfSidebar-Menu-MenuItem-MainLayout.md)|使用 Syncfusion SfSidebar 建立一個版面功能表選項清單|https://csharpkh.blogspot.com/2021/01/Blazor-Syncfusion-SfSidebar-Menu-MenuItem-MainLayout.html|
+|EFCore|[文章](EFCore/.md)||https://csharpkh.blogspot.com/2021/01/.html|
+|Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2021/01/.html|
+|||||
+|||||
 |||||
 |||||
 |||||
