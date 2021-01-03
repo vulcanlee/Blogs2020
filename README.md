@@ -33,11 +33,15 @@
 |CSharp|[文章](CSharp/many-Thread-Task-Concurrent-quick.md)|C# 用最快的速度完成他，不考慮CPU記憶體，完成工作單元，你所不瞭解的多執行緒計算|https://csharpkh.blogspot.com/2020/11/many-Thread-Task-Concurrent-quick.md.html|
 |WPF|[文章](WPF/WPF-Prism-RequestNavigate-RegionManager-MVVM-ViewModel-NavigationContext-INavigationAware.md)|WPF Prism 4 - 使用 Prism 開發框架來製作一個具有 WPF 導航檢視功能教學說明程式|https://csharpkh.blogspot.com/2020/05/WPF-Prism-RequestNavigate-RegionManager-MVVM-ViewModel-NavigationContext-INavigationAware.html|
 |Blazor|[文章](Blazor/Blazor-Syncfusion-SfSidebar-Menu-MenuItem-MainLayout.md)|使用 Syncfusion SfSidebar 建立一個版面功能表選項清單|https://csharpkh.blogspot.com/2021/01/Blazor-Syncfusion-SfSidebar-Menu-MenuItem-MainLayout.html|
-|Blazor|[文章](Blazor/Blazor-Syncfusion-Getting-Starter.md)|如何使用 Syncfusion 在 Blazor 專案上|https://csharpkh.blogspot.com/2021/01/Blazor-Syncfusion-Getting-Starter.html|
+|Blazor|[文章](Blazor/Blazor-Syncfusion-Getting-Starter.md)|如何使用 Syncfusion 在 Blazor 專案上|https://csharpkh.blogspot.com/2021/01//Blazor-Syncfusion-Getting-Starter.html|
 |Blazor|[文章](Blazor/Blazor-Syncfusion-Button-Bootstrap-Open-Iconic-SfButton.md)|使用 Syncfusion 的按鈕元件或指定按鈕代表圖形，有 Bootstrap 4 與 Open Iconic 兩種用法|https://csharpkh.blogspot.com/2021/01/Blazor-Syncfusion-Button-Bootstrap-Open-Iconic-SfButton.html|
+|Blazor|[文章](Blazor/Blazor-Syncfusion-SfDialog-DialogButtons-IsModal.md)|使用 Syncfusion 的各種對話窗的用法，包含巢狀對話窗|https://csharpkh.blogspot.com/2021/01/Blazor-Syncfusion-SfDialog-DialogButtons-IsModal.html|
 
 
-|Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2021/01/.html|
+
+
+
+
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2021/01/.html|
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2021/01/.html|
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2021/01/.html|
