@@ -1,4 +1,4 @@
-# 如何使用 Syncfusion 在 Blazor 專案上
+# 使用 Syncfusion 的按鈕元件或指定按鈕代表圖形，有 Bootstrap 4 與 Open Iconic 兩種用法
 
 由於工作上的需要以看到最新的網頁開發框架 Blazor ，便決定開始使用 Blazor Server Side 來進行網頁專案的開發，會選擇 Server Side 方式而不是採用 WASM 的方式，當初決定的理由相當的簡單，那就是要簡化整個網站開發的流程，透過 Blazor Server Side 開發架構，可以享受到許多的好處，例如可以線上直接設定中斷點來進行除錯、不需要設計 Web API 就可以存取後端的資料庫等等。
 
