@@ -36,13 +36,13 @@
 |Blazor|[文章](Blazor/Blazor-Syncfusion-Getting-Starter.md)|如何使用 Syncfusion 在 Blazor 專案上|https://csharpkh.blogspot.com/2021/01//Blazor-Syncfusion-Getting-Starter.html|
 |Blazor|[文章](Blazor/Blazor-Syncfusion-Button-Bootstrap-Open-Iconic-SfButton.md)|使用 Syncfusion 的按鈕元件或指定按鈕代表圖形，有 Bootstrap 4 與 Open Iconic 兩種用法|https://csharpkh.blogspot.com/2021/01/Blazor-Syncfusion-Button-Bootstrap-Open-Iconic-SfButton.html|
 |Blazor|[文章](Blazor/Blazor-Syncfusion-SfDialog-DialogButtons-IsModal.md)|使用 Syncfusion 的各種對話窗的用法，包含巢狀對話窗|https://csharpkh.blogspot.com/2021/01/Blazor-Syncfusion-SfDialog-DialogButtons-IsModal.html|
+|CSharp|[文章](CSharp/CSharp-Thread-Local-Storage-ThreadStatic-ThreadLocal-Default-MultiThread.md)|ThreadStatic 與 ThreadLocal 預設值|https://csharpkh.blogspot.com/2021/01/CSharp-Thread-Local-Storage-ThreadStatic-ThreadLocal-Default-MultiThread.html|
 
 
 
 
 
 
-|Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2021/01/.html|
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2021/01/.html|
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2021/01/.html|
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2021/01/.html|
