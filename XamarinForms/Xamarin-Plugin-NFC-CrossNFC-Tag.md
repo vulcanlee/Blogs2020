@@ -25,7 +25,7 @@
 * 在文字輸入盒內輸入 PropertyChanged.Fody ，搜尋出這個套件
 * 點選 [PropertyChanged.Fody] 這個套件，安裝到 Xamarin.Forms 專案內
 
-### 安裝 PropertyChanged.Fody
+### 安裝 Plugin.NFC
 
 * 在 [XFNFC] 專案內
 * 滑鼠右擊 [相依性節點]，點選 [管理 NuGet 套件]
