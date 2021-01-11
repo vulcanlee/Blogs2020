@@ -38,13 +38,13 @@
 |Blazor|[文章](Blazor/Blazor-Syncfusion-SfDialog-DialogButtons-IsModal.md)|使用 Syncfusion 的各種對話窗的用法，包含巢狀對話窗|https://csharpkh.blogspot.com/2021/01/Blazor-Syncfusion-SfDialog-DialogButtons-IsModal.html|
 |CSharp|[文章](CSharp/CSharp-Thread-Local-Storage-ThreadStatic-ThreadLocal-Default-MultiThread.md)|ThreadStatic 與 ThreadLocal 預設值|https://csharpkh.blogspot.com/2021/01/CSharp-Thread-Local-Storage-ThreadStatic-ThreadLocal-Default-MultiThread.html|
 |Xamarin|[文章](XamarinForms/Xamarin-Essentials-MediaPicker-CapturePhotoAsync-ImageSource-FileResult.md)|Xamarin.Forms 使用 Xamarin.Essentials 媒體選擇器|https://csharpkh.blogspot.com/2021/01/Xamarin-Essentials-MediaPicker-CapturePhotoAsync-ImageSource-FileResult.html|
+|Xamarin|[文章](XamarinForms/Xamarin-Plugin-NFC-CrossNFC-Tag.md)|透過 Xamarin.Forms 來讀取 NFC 裝置 Tag|https://csharpkh.blogspot.com/2021/01/Xamarin-Plugin-NFC-CrossNFC-Tag.html|
 
 
 
 
 
 
-|Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2021/01/.html|
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2021/01/.html|
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2021/01/.html|
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2021/01/.html|
