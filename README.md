@@ -39,6 +39,7 @@
 |CSharp|[文章](CSharp/CSharp-Thread-Local-Storage-ThreadStatic-ThreadLocal-Default-MultiThread.md)|ThreadStatic 與 ThreadLocal 預設值|https://csharpkh.blogspot.com/2021/01/CSharp-Thread-Local-Storage-ThreadStatic-ThreadLocal-Default-MultiThread.html|
 |Xamarin|[文章](XamarinForms/Xamarin-Essentials-MediaPicker-CapturePhotoAsync-ImageSource-FileResult.md)|Xamarin.Forms 使用 Xamarin.Essentials 媒體選擇器|https://csharpkh.blogspot.com/2021/01/Xamarin-Essentials-MediaPicker-CapturePhotoAsync-ImageSource-FileResult.html|
 |Xamarin|[文章](XamarinForms/Xamarin-Plugin-NFC-CrossNFC-Tag.md)|透過 Xamarin.Forms 來讀取 NFC 裝置 Tag|https://csharpkh.blogspot.com/2021/01/Xamarin-Plugin-NFC-CrossNFC-Tag.html|
+|CSharp|[使用 APM 非同步設計模式加上 callback 的各個觸發時間點](Blazor/CSharp-APM-WaitOne-Callback-Begin-End.md)||https://csharpkh.blogspot.com/2021/02/CSharp-APM-WaitOne-Callback-Begin-End.html|
 
 
 
